@@ -1,0 +1,2 @@
+[console_scripts]
+specter-slopsquat = specter_slopsquat.cli:main

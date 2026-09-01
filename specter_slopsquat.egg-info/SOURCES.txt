@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+specter_slopsquat/__init__.py
+specter_slopsquat/cli.py
+specter_slopsquat/models.py
+specter_slopsquat/s1_hallucination_elicitor.py
+specter_slopsquat/s2_registry_validator.py
+specter_slopsquat/s3_s5_scoring.py
+specter_slopsquat/s6_s8_evidence.py
+specter_slopsquat.egg-info/PKG-INFO
+specter_slopsquat.egg-info/SOURCES.txt
+specter_slopsquat.egg-info/dependency_links.txt
+specter_slopsquat.egg-info/entry_points.txt
+specter_slopsquat.egg-info/requires.txt
+specter_slopsquat.egg-info/top_level.txt
+tests/test_core.py
