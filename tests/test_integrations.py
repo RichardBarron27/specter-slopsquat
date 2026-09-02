@@ -42,8 +42,7 @@ class TestWarlordIntegration:
             result = WarlordToolRegistration.validate_input(invalid_input)
             assert result is False or result is True
         except Exception:
-            pass
-
+            return None
     def test_input_schema_model(self):
         """Test pydantic input schema."""
         schema = T282InputSchema(
