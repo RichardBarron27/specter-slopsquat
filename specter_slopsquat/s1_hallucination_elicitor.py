@@ -95,7 +95,7 @@ class HallucinationElicitor:
                 incomplete_prompt = f"Complete this code:\n{template.format('')}"
 
                 response = client.messages.create(
-                    model="claude-3-haiku-20240307",
+                    model="claude-haiku-4-5-20251001",
                     max_tokens=150,
                     messages=[{"role": "user", "content": incomplete_prompt}],
                 )
@@ -107,7 +107,7 @@ class HallucinationElicitor:
                     results.append(HallucinatedPackage(
                         name=pkg_name,
                         language=language,
-                        model="claude-3-haiku",
+                        model="claude-haiku-4-5",
                         prompt_id=f"anthropic_{i}",
                         context=completion_text[:100],
                         confidence=0.85,

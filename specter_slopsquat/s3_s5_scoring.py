@@ -16,7 +16,7 @@ class SquattabilityScorer:
     def is_homoglyph_confusable(name: str) -> bool:
         """Check if name contains homoglyph-confusable characters."""
         for char in name:
-            confusable_list = confusables.confusables(char)
+            confusable_list = confusables.is_confusable(char)
             if confusable_list:
                 return True
         return False
